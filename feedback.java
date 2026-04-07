@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class feedback
+{
+	public static void main(String [] args)
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter your symbal...+ - % /");
+		char symbal = s.next().charAt(0);
+		String feedback = null;
+		switch(grade)
+		{
+			case '+' : feedback = "addition of two numbers";
+			           break;
+			case '-' : feedback = "substraction of two numbers";
+					   break;
+			case '%' : feedback = "moduler divition of two numbers";
+			           break;
+			case '/' : feedback = "divition of two numbers";
+			           break;
+             default : System.out.println("Enter valid symbal");                
+		}
+		System .out.println("feedback : " + feedback);
+	}
+}
+
+	
+
+
+
+            
+		
+			             
+

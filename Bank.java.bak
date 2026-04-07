@@ -1,0 +1,61 @@
+interface Bank
+{
+	public void Deposit(double amount);
+	public void withdraw(double amount);
+	double Balance();
+}
+class Axisbank implements Bank
+{
+	public void Deposit()
+	{
+		System.out.println( "your deposit amount...");
+	}
+	public void withdraw()
+	{
+		System.out.println( " your withdraw amount...");
+	}
+	public void balance()
+	{
+		System.out.println(" your Balance...");
+	}
+
+	class icicbank implements Bank
+	{
+		public void Deposit()
+	{
+		System.out.println( "your deposit amount...");
+	}
+	public void withdraw()
+	{
+		System.out.println( " your withdraw amount...");
+	}
+	public void Balance()
+	{
+		System.out.println(" your Balance...");
+	}
+	}
+	class BankData
+	{
+		 void info(Bank b)
+		{
+			b.deposit(1000);
+			b.withdraw(500);
+			double bal = getbalance();
+			System.out.println(" your balance ..."+bal);
+		}
+	}
+	class client
+	{
+		public static void main(String[] args)
+		{
+			BankData b = new BankData();
+			b.info(new AxisBank());
+			b.info(new icicBank());
+
+		}
+	}
+}
+
+
+
+

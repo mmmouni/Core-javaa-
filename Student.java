@@ -1,0 +1,16 @@
+class Student
+{
+	public static void main(String[] args) 
+	{
+		int num=6;
+		if(num %2==0)
+		{
+			System.out.println("the num is even..."+num);
+		}
+		else
+		{
+			System.out.println("the num is odd..."+num);
+		}
+	}
+}
+	

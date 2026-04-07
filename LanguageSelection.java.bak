@@ -1,0 +1,35 @@
+import java.util.Scanner;
+class LanguageSelection
+{
+	public static void main(String [] args)
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter your option 1 Telugu 2 Hindhi 3 English 4 kanada 5 Tamil");
+		String option = s.next();
+		switch(option);
+		{
+		   case 1 : System.out.println("your selected Telugu");
+			        System.out.println("conversation in Telugu");
+					break;
+           case 2 : System.out.println("your selected Hindhi");
+			        System.out.println("conversation in Hindhi");
+					break;
+           case 3 : System.out.println("your selected English");
+			        System.out.println("conversation in English");
+					break;
+           case 4 : System.out.println("your selected kanada");
+			        System.out.println("conversation in kanada");
+					break;
+           case 5 :  System.out.println("your selected Tamil");
+			        System.out.println("conversation in Tamil");
+					break;
+		 default :  System.out.println("Enter valid option");
+		}
+	}
+}
+
+
+          
+		
+		
+

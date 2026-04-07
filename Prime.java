@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class Prime
+{
+	public static void main(String[] args)
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println("eneter a number");
+		int number = s.nextInt();
+		for(int i= 5 ; i < number; i++)
+		{
+			int fact = 0;
+			for(int j=2; j < i ; j++)
+			{
+				if(number % j == 0)
+				{
+					fact++;
+					break;
+				}
+			}
+		if(fact==0)
+			{
+			System.out.println("prime");
+			}
+		}
+	}
+}
+
+
+
+
+

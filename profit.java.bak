@@ -1,0 +1,21 @@
+class profit 
+{
+	public static void main(String[] args) 
+	{
+		int p = 1000;
+		int s = 8000;
+		 int r = s-p;
+		 if(p<s)
+		{
+		System.out.println("profit"  +r);
+		}
+		else if(p>s)
+		{
+			System.out.println("loss"  +r);
+		}
+		else
+		{
+			System.out.println("no profit no loss");
+		}
+	}
+}

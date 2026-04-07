@@ -1,0 +1,26 @@
+import java .util.Scanner;
+class array1 
+{
+	public static int[] needInteger()
+	{
+		Scanner sc = new Scanner(System.in);
+			System.out.println(" Enter the numbers with comma seperator");
+		String input = sc.nextline();
+		String[]element = input.split(",");
+			int[] numbers = new int[element.lenghth];
+		for(int i=0; i<elements.lenght;i++)
+		{
+			numbers[i]=Integer.parseInt(element[i]);
+		}
+		return numbers;
+	}
+	public static void main(String[]args)
+	{
+		int result=test.needInteger();
+		for(int res:result)
+		{
+			System.out.println(res+" ");
+		}
+	}
+}
+

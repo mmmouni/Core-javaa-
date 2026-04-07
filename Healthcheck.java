@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Healthcheck
+{
+	public static void main(String[]args)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("suffering with fever");
+		boolean fever=s.nextBoolean();
+		System.out.println("suffering with cold");
+		boolean cold = s.nextBoolean();
+		if(fever == true || cold == false)
+		{
+			System.out.println("go to hospital");
+		}
+		else
+		{
+			System.out.println("go to class");
+		}
+		s.close();
+	}
+}
+		
+		
+

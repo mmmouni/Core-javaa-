@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class  Pin
+{
+	public static void main(String[] args) 
+	{
+		int pin = 1234;
+		Scanner sc= new Scanner(System.in);
+		for (int i=1;i<=4 ;i++ )
+		{
+			System.out.println("Enter the user pin...");
+		int userPin =  sc.nextInt();
+		if (userPin == pin)
+			{
+			System.out.println("you entered valid pin..");
+			break;
+		}
+		else 
+			{
+			System.out.println(" you entered invalid pin..");
+			}
+			if (i==4)
+			{
+			System.out.println("you entered 4 times in valid pin it is Blocked");
+			}
+		}
+		sc.close();
+		}
+	}

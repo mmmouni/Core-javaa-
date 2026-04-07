@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class LoginCheck
+{
+	public static void main(String[]args)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter user name...");
+		String username=s.next();
+		System.out.println("Enter password...");
+		String userName =s.next();
+		if(username.equals("mouni")&& Password.equals("mouni@123"))
+		{
+			System.out.println("login sucessfull..."+username);
+		}
+		else
+		{
+			System.out.println("login fail...try with valid data"+username);
+		}
+		s.close();
+	}
+}
+		
+

@@ -1,0 +1,37 @@
+import java.util.Scanner;
+class  digit1
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter the number!");
+		int n=s.nextInt();
+		int num=n;
+		int num2;
+		System.out.println("enter the digit..!");
+		int digit=s.nextInt();
+		int d,d1;
+		while(n!=0)
+		{
+			 d=n%10;
+			while(d==digit)
+			{
+			int num1 = --num;
+			 num2=num1;
+			 d1=num1%10;
+			if(d1==digit)
+				{
+				num2=num2-1;
+					System.out.println(num2);
+				}
+				num1=num1/10;
+			}
+			n=n/10;
+		}
+		s.close();
+	}
+}
+
+
+
+

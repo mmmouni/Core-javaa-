@@ -1,0 +1,24 @@
+class num1 
+{
+	public static void main(String[] args) 
+	{
+		char ch = 'a';
+		int i;
+		if(  ch >= 'a' &&   ch <= 'z')
+		{
+			System.out.println("lower case..."+ch);
+		}
+		else if( ch >= 'A' && ch <= 'Z')
+		{
+			System.out.println("upper case..."+ch);
+		}
+		else if ( i >= 1 &&  i <= 10)
+		{
+			System.out.println("Digits..."+i);
+		}
+		else
+		{
+			System.out.println("Special charcter");
+		}
+	}
+}

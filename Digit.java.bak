@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Digit
+{
+	public static void main(String [] args)
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println( " Enter a number...");
+		int number = s.nextInt();
+		int firstdigit = 0;
+		int lastdigit = 0;
+		int sum = 0;
+		while(number!=0)
+		{
+			int lastdigit = number % 10 ;
+             sum = sum + digit;
+			int firstdigit = number /10;
+		}
+		System.out.println(" first digit is"  +  digit);
+		System.out.println("last digit is "  + digit);
+		System.out.println( "sum of all digits" + sum);
+		
+		s.close();
+	}
+}
+

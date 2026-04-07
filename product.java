@@ -1,0 +1,56 @@
+import java.util.Scanner;
+class product
+{
+	public static void main(String []args)
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the proname...");
+		String proName=s.next();
+		System.out.println("Enter the proprice...");
+		int proprice=s.nextInt();
+		System.out.println("Enter the proquantity...");
+		int proquantity=s.nextInt();
+		int totalprice;
+		totalprice=proprice*proquantity;
+		System.out.println("total price...");
+		if(totalprice>1000)
+		{
+			int discount;
+			discount=proprice*20/100;
+			System.out.println("discount...");
+			System.out.println("proname...");
+			System.out.println("proprice...");
+			System.out.println("proquantity...");
+			int netammount;
+				netammount=totalprice-discount;
+			System.out.println("netammount to pay..."+netammount);
+		}
+		else
+		{
+			int discount;
+				discount=proprice*10/100;
+			System.out.println("discount...");
+			System.out.println("proname...");
+			System.out.println("proprice...");
+			System.out.println("proquantity...");
+			System.out.println("prototalprice...");
+		}
+		s.close();
+	}
+}
+
+			
+
+
+
+
+
+
+
+
+			
+		
+
+
+
+	

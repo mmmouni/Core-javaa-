@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class array
+	{
+		public Static void main(String[] args)
+		{
+			String search = "anu";
+			boolean flag = false;
+			for(String name : names)
+			{
+				if(name.eqals(search))
+				{
+					flag=true;
+					break;
+				}
+			}
+			if(flag)
+			{
+				System.out.println(" element is found...");
+			}
+			else
+			{
+				System.out.println("element is not found...");
+			}
+		}
+	}
